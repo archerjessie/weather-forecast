@@ -1,0 +1,33 @@
+.jr_container {
+  min-height: 100vh;
+  background-image: url('./assets/background-image.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.jr_card {
+  width: 55vw;
+  background: #fff;
+  border-radius: 32px;
+  padding: 0;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 576px) {
+  .jr_card {
+    width: 100vw;
+  }
+}
+
+.jr_bottom {
+  margin: 0;
+  padding: 25px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}

@@ -1,0 +1,15 @@
+@media only screen and (min-width: 960px) {
+  .jr_other-cities {
+    border-right: outset;
+  }
+}
+@media only screen and (max-width: 959px) {
+  .jr_other-cities {
+    border-top: outset;
+    padding-top: 20px;
+  }
+}
+
+img.city-weather {
+  margin-top: -10px;
+}

@@ -1,0 +1,69 @@
+.jr_current-weather {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+  width: 100%;
+  padding: 64px 0;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  color: white;
+  position: relative;
+}
+
+.jr_current-weather.melbourne {
+  background-image: url(./assets/Melbourne.jpg);
+}
+.jr_current-weather.sydney {
+  background-image: url(./assets/Sydney.jpg);
+}
+.jr_current-weather.brisbane {
+  background-image: url(./assets/Brisbane.jpg);
+}
+
+.jr_current-weather.perth {
+  background-image: url(./assets/Perth.jpg);
+}
+
+.humidity {
+  border-right: outset;
+}
+.wind {
+  padding-left: 20px;
+}
+.current-right span {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.current-left {
+  padding: 0 48px;
+}
+.current-right {
+  padding: 0 48px;
+  text-align: center;
+}
+
+.current-left h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: normal;
+}
+.weather-main {
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  margin-top: 0.25rem;
+}
+.current-left-bottom {
+  margin-top: 3rem;
+  margin-left: 0;
+  font-size: 1.5rem;
+}
+.bottom-strip {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1.5rem;
+}
